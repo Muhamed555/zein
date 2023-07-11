@@ -18,12 +18,13 @@
 - The package includes features that can detect and evaluate images out of 100 to see if they contain sexual content or not, and some other helpful features.
   
 ## Installation
+[PYPI](https://pypi.org/project/zein/1.0.1/)
 
     pip install zein
 
 
 ## Try The package on Colab
-
+From [Here](https://colab.research.google.com/drive/1zY1xAfgBngoQ81AaCrrIRx11REY1KKw8?usp=sharing)
 
 ## Call for Contributions
 <p>We Need Your Help The zein project values your skills and passion!</p>
