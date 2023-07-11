@@ -1,17 +1,16 @@
 <div align="center">
-  <img src="logo.png" alt="Ather logo" width="400" height="auto" />
+  <img src="images/logo.png" alt="Ather logo" width="400" height="auto" />
 <hr>
   <p> A Python package to set restrictions on visual content of all kinds and protect users from seeing harmful content, and ensure the safety of input and output machine learning models.</p>
 </div>
 
 **Contents**
 
-  * [Library Mission](#Library-Mission)
+  * [Package Mission](#Package-Mission)
   * [Installation](#Installation)
-  * [Sample Code](#Sample-Code)
   * [Try the package on Colab](#Try-the-package-on-Colab)
   * [Call for Contributions](#Call-for-Contributions)
-  * [License](#license)
+  * [License](#License)
     
 # Package Mission
 - The package includes an Arabic script swear word filter module, using a comprehensive list of swear words and an intelligent content detection algorithm
@@ -22,22 +21,7 @@
 
     pip install zein
 
-## Sample Code
 
-    from zein.text import ArabicFilter
-  
-    af = ArabicFilter()
-    
-    text = "انت انسان ابن كلب"
-    af.censor(text)
-
-    // انت انسان ابن ***
-    
-    af.find_insulting_words(text)
-    // [(4, كلب)]
-    
-    af.is_profane(text)
-    // True
 ## Try The package on Colab
 
 
@@ -49,6 +33,9 @@ There are many other ways to contribute to NumPy besides writing code. You can a
 - Help us manage new and old issues
 - Create tutorials, presentations, and other learning materials
 - Evaluate pull requests
+
+## License
+See [LICENSE](LICENSE) file.
 
 
 

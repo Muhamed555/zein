@@ -3,9 +3,9 @@ import codecs
 import os
 
 
-VERSION = '0.0.37'
-DESCRIPTION = 'A python library for ensuring the safety and security of ML models'
-LONG_DESCRIPTION = 'A python library for ensuring the safety and security of ML models and their outputs for the Arabic and Islamic community'
+VERSION = '0.0.1'
+DESCRIPTION = 'A python library for ensuring the safety and security of visual content'
+LONG_DESCRIPTION = 'A Python package to set restrictions on visual content of all kinds and protect users from seeing harmful content, and ensure the safety of input and output machine learning models.'
 
 # Setting up
 setup(
@@ -17,7 +17,6 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    #packages=["zein", "zein.text", "zein.images"],
     include_package_data=True,
     package_data= {
       'zein': ['models/*.pkl', 'data/*.csv', 'retrained_labels.txt'],
