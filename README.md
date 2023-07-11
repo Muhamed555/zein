@@ -30,7 +30,7 @@ From [Here](https://colab.research.google.com/drive/1zY1xAfgBngoQ81AaCrrIRx11REY
 <p>We Need Your Help The zein project values your skills and passion!</p>
 <p>We appreciate any small enhancements or fixes you can make. If you want to make bigger changes to the source code, please let us know through the mailing list first.</p>
 
-There are many other ways to contribute to NumPy besides writing code. You can also:
+There are many other ways to contribute to zein besides writing code. You can also:
 - Help us manage new and old issues
 - Create tutorials, presentations, and other learning materials
 - Evaluate pull requests
