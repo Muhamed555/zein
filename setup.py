@@ -3,7 +3,7 @@ import codecs
 import os
 
 
-VERSION = '0.0.1'
+VERSION = '1.0.1'
 DESCRIPTION = 'A python library for ensuring the safety and security of visual content'
 LONG_DESCRIPTION = 'A Python package to set restrictions on visual content of all kinds and protect users from seeing harmful content, and ensure the safety of input and output machine learning models.'
 
