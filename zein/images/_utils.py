@@ -27,7 +27,7 @@ def array_to_temp_file(array):
 
 def check_safety_helper(image_path):
     # Read in the image_data
-    url = "https://github.com/minto5050/NSFW-detection/blob/master/retrained_graph.pb?raw=true"
+    url = "https://github.com/Muhamed555/zein/raw/master/zein/models/retrained_graph.pb"
     r = requests.get(url)
     
     temp_dir = tempfile.TemporaryDirectory()
